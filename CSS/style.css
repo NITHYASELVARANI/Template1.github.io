@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700&display=swap');
+html, body {
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Exo', sans-serif;
+}
+.navbar-header{
+    position: relative;
+}
+.navbar-brand{
+    position: absolute;
+    top: -16px
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-brand img{
+    width: 140px;
+     height: auto;
+     padding-top: 12px;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+}
+.dropdown-menu{
+    background-color: #554c86;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fff;
+    white-space: nowrap;
+}
+.btn-default{
+    background: #554c86;
+    border: 2px solid #554c86;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.background{
+   
+    background-image: url("https://bestwpware.com/html/wrap/sai-template/assets/img/bg/parallax-bg.jpg"); 
+    background-size: cover;
+    background-position: 50% -35px;
+    height: 750px;
+    position: relative;
+    
+}
+h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 58px;
+   
+
+}
+.text {
+    padding-top: 250px;
+}
+.para {
+    padding-top: 75px;
+
+}     
+.navbar-default {
+    background-color: #afa8cb00;
+    border-color: #e7e7e7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border: 0;
+}
+.text p{
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+}
+.secondlayout {
+    padding-top: 75px;
+}
+img {
+    border: 0;
+    max-width: 500px;
+    height: auto;
+    padding-top: 60px;
+}
+.col-md-6 p{
+    font-size: 16px;
+    padding-top: 60px;
+    line-height: 28px;
+}
+.col-md-6 h2{
+    font-size: 44px;
+    font-weight: 600;
+}
+.content p{
+    color: #554c86;
+    font-weight: 500;
+    margin-bottom: 20px
+}
+
+.scroll{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+    margin-top: -36px;
+    position: relative;
+    
+}
+.scroll-down{
+    margin-bottom: 30px;
+}
+.item{
+      width: 176px;
+      
+}
+.item .col-md-3{
+    width: 100%;
+}
+
+.scroll .row{
+    padding-bottom: 8px;
+    margin: 0;
+}
+.col-md-4 img{
+    padding: 0px;
+}
+
+.third{
+background-color: #fffaf1;
+padding-top: 15px;
+}
+.third ul{
+margin-top: 0;
+ margin-bottom: 98px;
+}
+.third > div >img{
+        height: 680px;
+       
+}
+.box li{
+line-height: 40px;
+border: 1px solid #eee;
+padding: 15px 20px;
+margin-bottom: 10px;
+border-radius: 10px;
+width: 350px;
+list-style: none;
+display: flex;
+align-items: center;
+gap: 16px;
+background-color: white;
+
+}
+.circleTic {
+    background: #554c86;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+.navbar-inverse {
+background-color: #222 !IMPORTANT;
+}
+
+.fourth{
+    background-color: #554c86;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.fourth img{
+    padding-top: 0;
+}
+.fourth p{
+    padding-top: 5px;
+}
+.fifth{
+    padding-bottom:70px;
+    padding-top: 70px;
+}
+.fifth h2{
+    padding-top: 10px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.fifth p{
+    padding-top: 10px;
+    font-size: 16px;
+    width: 50%;
+    margin:auto;
+    padding-bottom:40px;
+}
+.branding{
+    border: 1px solid;
+    border-radius: 40px;
+
+}
+.develop{
+    border:1px solid;
+    border-radius: 40px;
+
+}
+.Business{
+    border: 1px solid;
+    border-radius: 40px;
+  
+}
+
+.sixth{
+        background-color:#fffaf1;
+        padding-top:50px;
+        padding-bottom: 75px;
+}
+.sixth h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.popup img{
+    width:150px;
+}
+.Buyit{
+    border: 1px solid white;
+    text-align: center;
+    background-color: white;
+    padding: 60px 40px;
+}
+.popup h4{
+    padding-top: 30px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.sixth p{
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+.Enjoyit{
+    border: 1px solid white;
+    text-align: center;
+    background-color: white;
+    padding: 60px 40px;
+}
+.Makelive{
+    border: 1px solid white;
+    text-align: center;
+    background-color: white;
+    padding: 60px 40px;
+}
+.seven li{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 25px;
+    
+}
+.seven h2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.seven p{
+    padding-bottom: 30px;
+    width: 60%;
+    margin: auto;
+}
+.all{
+    border-right: 2px solid #eee ;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.brand{
+    border-right: 2px solid #eee ;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.webtemplate{
+    border-right: 2px solid #eee ;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.seo{
+    border-right: 2px solid #eee ;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.digital{
+    padding-left: 10px;
+}
+.eight h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.eight p{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+.imgss img{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.photos img{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.eight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fresh{
+    padding: 50px 0;
+    background-color: #fffaf1;
+}
+.fresh h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.fresh p{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.columns img{
+    width: 100%;
+}
+.box1{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 30px;
+}
+.box2{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 30px;
+}
+.box3{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 30px;
+}
+.columns h3 a:hover{
+        color: #554c86;
+        text-decoration: none;
+}
+.service{
+    background-color: #554c86;
+    padding: 80px 0;
+}
+.service h2 {
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}
+.promotion-btn a {
+    background: #0aa1d6;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 25px 40px;
+
+}
+.promotion-btn{
+    margin-top: 50px;
+}
+.contact {
+    padding-top:50px;
+    padding-bottom: 30px;
+    background: #fffaf1;
+
+}
+.contact h2{
+    font-weight: 700;
+    font-size: 42px;
+}
+.contact p{
+    width:80%;
+    font-size: 15px;
+    padding: 10px;
+  
+}
+
+.name input{
+    padding: 20px 155px 20px 30px;
+    border: 1px solid #e9e6e6;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.email input{
+    padding: 20px 155px 20px 30px;
+    border: 1px solid #e9e6e6;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.subject input{
+    padding: 20px 545px 20px 30px;
+    border: 1px solid #e9e6e6;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.Your-Message textarea {
+    padding: 15px;
+    border: 1px solid #e9e6e6;
+    margin-bottom: 15px;
+    height: 190px;
+    margin-bottom: 20px;
+}
+.address{
+        background: #fff;
+        padding: 40px;
+        box-shadow: 0 10px 40px -10px rgba(0,64,128,.1);
+        border-radius: 3px;  
+        padding-bottom: 0;  
+}
+
+
+.address-bg1{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+    width: max-content;
+}
+
+.address-bg2{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+}
+.address-bg3{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+}
+.address-bg4{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    width: max-content;
+}
+.submitbutton button {
+    background: #0aa1d6;
+    color: #fff;
+    padding: 13px 416px 10px 260px;
+    text-align: center;
+}
+
+.map iframe{
+    width: 103%;
+    height: 500px;
+    margin-bottom: -8px;
+    margin-left: -15px;
+}
+.foot{
+ 
+    background: #232a34;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+
+.foot-menu li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.foot-menu a:hover{
+    text-decoration: none;
+    color:aqua;
+}
+.foot-menu a{
+    color: white;
+}
+.foot-copyright{
+    color: white;
+    font-size: 15px;
+}
+.foot-copyright p{
+    margin: 20px 0px 20px;
+}
